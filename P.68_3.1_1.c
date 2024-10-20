@@ -16,7 +16,7 @@ void main()
     tens = (num / 10) % 10;
     ones = num % 10;
 
-    if (hundreds==0){
+    if (hundreds==0 || hundreds >=10){
         printf("输入错误，请输入一个三位整数！\n");
         goto start;
     }
