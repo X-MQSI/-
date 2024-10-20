@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <string.h>
+#include <windows.h>
 
 //逆序输出法
 void main() {
     char str[4];
+
+    SetConsoleOutputCP(65001);  //定义Shell编码为UTF-8以防乱码
 
     start: //定义goto标签
     printf("请输入一个三位整数：");
