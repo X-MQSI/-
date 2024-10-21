@@ -17,6 +17,11 @@
    解法1. [常规解法](https://github.com/X-MQSI/Academic-garbage/blob/main/P.68_3.3_1.c)  
    ![image](https://github.com/user-attachments/assets/ba8a3e52-9575-4cef-a887-22f2a69f0785)  
 
+## 其他内容
+### 高等数学
+#### 二分法求解函数近似根值
+[dichotomy.c](https://github.com/X-MQSI/Academic-garbage/blob/main/dichotomy.c)
+
 
 **********
 以上解法仅供参考。
