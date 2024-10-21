@@ -19,9 +19,11 @@
 
 ## 其他内容
 ### 高等数学
-#### 二分法求解函数近似根值
-[dichotomy.c](https://github.com/X-MQSI/Academic-garbage/blob/main/dichotomy.c)
+1. 二分法求解函数近似根值
+   源代码：[dichotomy.c](https://github.com/X-MQSI/Academic-garbage/blob/main/dichotomy.c)
 
 
 **********
 以上解法仅供参考。
+中北大学 航空宇航学院  
+MQSI
