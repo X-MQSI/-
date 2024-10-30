@@ -3,7 +3,7 @@
 #include <windows.h>
 
 #define PI 3.14159265358979  // 圆周率常量
-void main() {
+int main() {
 
     double radius, volume, surface_area;
 
@@ -30,4 +30,6 @@ void main() {
     while (getchar() != '\n');
     printf("按任意键退出...");
     getchar();
+
+    return 0;
 }
