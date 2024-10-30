@@ -2,7 +2,7 @@
 #include <windows.h>
 
 //位分离法
-void main()
+int main()
 {
     int num, hundreds, tens, ones, reversed;
     char check;
@@ -29,4 +29,6 @@ void main()
 
     printf("按任意键退出...")
     getchar();
+
+    return 0;
 }
