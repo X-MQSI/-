@@ -3,7 +3,7 @@
 #include <windows.h>
 
 //逆序输出法
-void main() {
+int main() {
     char str[4];
 
     SetConsoleOutputCP(65001);  //定义Shell编码为UTF-8以防乱码
@@ -26,4 +26,6 @@ void main() {
     while (getchar() != '\n');
     printf("按任意键退出...");
     getchar();
+
+    return 0;
 }
