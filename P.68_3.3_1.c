@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <windows.h>
 
-void main() {
+int main() {
     float c, f;
 
     SetConsoleOutputCP(65001);  //定义Shell编码为UTF-8以防乱码
@@ -16,4 +16,6 @@ void main() {
     while (getchar() != '\n');
     printf("按任意键退出...");
     getchar();
+
+    return 0;
 }
